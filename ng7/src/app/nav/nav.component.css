@@ -1,0 +1,24 @@
+header {
+  background: #b4a6a6;
+}
+.logo {
+    font-weight: bold;
+
+ }
+
+ .nav {
+     justify-content: right;
+ }
+
+ .ul {
+     list-style-type: none;
+ }
+
+ .li {
+     float: left;
+ }
+
+ a {
+     padding:1.5em;
+     
+ }
