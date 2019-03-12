@@ -1,3 +1,8 @@
-<h1 [style.color]="h1Style? 'gray':'black'">Home</h1>
+<h1 >Books I read</h1>
 
-<button  (click)="firstClick()">Click me</button>
+<ul *ngIf ="book">
+    <li *ngFor ="let book of book">
+<p>{{book.title}}                                                            {{book.auther}}</p>
+    <li>
+
+</ul>
